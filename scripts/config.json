@@ -1,0 +1,54 @@
+{
+    "colorers": [
+        {
+            "name": "simple",
+            "svg_path": "svg/simple.svg",
+            "svg_width": 500,
+            "svg_height": 500,
+            "svg_areas": [
+                { "name": "cls-1",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-3",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-4",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-5",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-6",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-7",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-8",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-9",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-10", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-11", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-12", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-14", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] }
+            ]
+        },
+        {
+            "name": "complex",
+            "svg_path": "svg/complex.svg",
+            "svg_width": 500,
+            "svg_height": 500,
+            "svg_areas": [
+                { "name": "cls-7",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-9",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-10", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-11", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-12", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-13", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-14", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-15", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-16", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-17", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-18", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "cls-19", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] }
+            ]
+        },
+        {
+            "name": "venn",
+            "svg_path": "svg/venn.svg",
+            "svg_width": 500,
+            "svg_height": 500,
+            "svg_areas": [
+                { "name": "area-0", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
+                { "name": "area-1", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] }
+            ]
+        }
+    ]
+}

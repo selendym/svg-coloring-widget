@@ -1,0 +1,8 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 456.34 433.34">
+    <title>venn</title>
+    <circle class="area-0" cx="228.16" cy="142.23" r="141.73" style="fill:none;stroke:#231f20;stroke-miterlimit:10" />
+    <circle class="area-1" cx="390.39" cy="447.56" r="141.73" transform="translate(-268.69 405.45) rotate(-60.01)"
+        style="fill:none;stroke:#231f20;stroke-miterlimit:10" />
+    <circle class="area-0" cx="218.56" cy="447.6" r="141.73" transform="translate(-270.92 12.86) rotate(-30.02)"
+        style="fill:none;stroke:#231f20;stroke-miterlimit:10" />
+</svg>
