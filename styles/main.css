@@ -28,7 +28,8 @@ body,
     margin-inline: 1em;
 }
 
-.save-button {
+.control select,
+.control button {
     margin-inline: 0.5em;
 }
 

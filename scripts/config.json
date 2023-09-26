@@ -1,53 +1,61 @@
 {
+    "colorer_selector_label": "Select colorer:",
+    "color_palettes": {
+        "cotton": ["white","black","yellow"],
+        "rubber": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"]
+    },
     "colorers": [
         {
-            "name": "simple",
+            "colorer_name": "simple",
+            "colorer_label": "Simple",
             "svg_path": "svg/simple.svg",
             "svg_width": 500,
             "svg_height": 500,
             "svg_areas": [
-                { "name": "cls-1",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-3",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-4",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-5",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-6",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-7",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-8",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-9",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-10", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-11", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-12", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-14", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] }
+                { "area_name": "cls-1",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 0 },
+                { "area_name": "cls-3",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 1 },
+                { "area_name": "cls-4",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 2 },
+                { "area_name": "cls-5",  "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 0 },
+                { "area_name": "cls-6",  "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 1 },
+                { "area_name": "cls-7",  "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 2 },
+                { "area_name": "cls-8",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 0 },
+                { "area_name": "cls-9",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 1 },
+                { "area_name": "cls-10", "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 2 },
+                { "area_name": "cls-11", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 3 },
+                { "area_name": "cls-12", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 4 },
+                { "area_name": "cls-14", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 0 }
             ]
         },
         {
-            "name": "complex",
+            "colorer_name": "complex",
+            "colorer_label": "Complex",
             "svg_path": "svg/complex.svg",
             "svg_width": 500,
             "svg_height": 500,
             "svg_areas": [
-                { "name": "cls-7",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-9",  "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-10", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-11", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-12", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-13", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-14", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-15", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-16", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-17", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-18", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "cls-19", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] }
+                { "area_name": "cls-7",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 0 },
+                { "area_name": "cls-9",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 1 },
+                { "area_name": "cls-10", "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 2 },
+                { "area_name": "cls-11", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 0 },
+                { "area_name": "cls-12", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 1 },
+                { "area_name": "cls-13", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 2 },
+                { "area_name": "cls-14", "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 0 },
+                { "area_name": "cls-15", "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 1 },
+                { "area_name": "cls-16", "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 2 },
+                { "area_name": "cls-17", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 3 },
+                { "area_name": "cls-18", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 4 },
+                { "area_name": "cls-19", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 0 }
             ]
         },
         {
-            "name": "venn",
+            "colorer_name": "venn",
+            "colorer_label": "Venn",
             "svg_path": "svg/venn.svg",
             "svg_width": 500,
             "svg_height": 500,
             "svg_areas": [
-                { "name": "area-0", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] },
-                { "name": "area-1", "colors": ["#FF0000","#00FF00","#0000FF","#000000","#FFFFFF"] }
+                { "area_name": "area-0", "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 0 },
+                { "area_name": "area-1", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 4 }
             ]
         }
     ]
