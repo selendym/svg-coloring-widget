@@ -11,6 +11,8 @@
             "svg_path": "svg/simple.svg",
             "svg_width": 500,
             "svg_height": 500,
+            "svg_font_family": "sans-serif",
+            "svg_font_size": 32,
             "svg_areas": [
                 { "area_name": "cls-1",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 0 },
                 { "area_name": "cls-3",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 1 },
@@ -24,6 +26,10 @@
                 { "area_name": "cls-11", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 3 },
                 { "area_name": "cls-12", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 4 },
                 { "area_name": "cls-14", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 0 }
+            ],
+            "text_fields": [
+                { "field_name": "name", "field_label": "Name:" },
+                { "field_name": "country-code", "field_label": "Country code:" }
             ]
         },
         {
@@ -32,6 +38,8 @@
             "svg_path": "svg/complex.svg",
             "svg_width": 500,
             "svg_height": 500,
+            "svg_font_family": "sans-serif",
+            "svg_font_size": 32,
             "svg_areas": [
                 { "area_name": "cls-7",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 0 },
                 { "area_name": "cls-9",  "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 1 },
@@ -45,6 +53,10 @@
                 { "area_name": "cls-17", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 3 },
                 { "area_name": "cls-18", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 4 },
                 { "area_name": "cls-19", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 0 }
+            ],
+            "text_fields": [
+                { "field_name": "name", "field_label": "Name:" },
+                { "field_name": "country-code", "field_label": "Country code:" }
             ]
         },
         {
@@ -53,9 +65,16 @@
             "svg_path": "svg/venn.svg",
             "svg_width": 500,
             "svg_height": 500,
+            "svg_font_family": "serif",
+            "svg_font_size": 42,
             "svg_areas": [
                 { "area_name": "area-0", "color_selector_label": "Select color", "color_palette": "cotton", "default_color": 0 },
                 { "area_name": "area-1", "color_selector_label": "Select color", "color_palette": "rubber", "default_color": 4 }
+            ],
+            "text_fields": [
+                { "field_name": "text-field-0", "field_label": "Label 0:" },
+                { "field_name": "text-field-1", "field_label": "Label 1:" },
+                { "field_name": "text-field-2", "field_label": "Label 2:" }
             ]
         }
     ]

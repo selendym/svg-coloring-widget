@@ -74,6 +74,21 @@ body,
     border: solid lightgray thin;
 }
 
+.text-fields {
+    width: fit-content;
+    margin-top: 1em;
+}
+
+.text-field {
+    display: flex;
+    justify-content: right;
+    margin-top: 0.5em;
+}
+
+.text-field input {
+    margin-inline: 0.5em;
+}
+
 .svg-area-hover {
     filter: contrast(50%);
 }
